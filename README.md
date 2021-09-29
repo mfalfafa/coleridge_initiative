@@ -26,19 +26,19 @@ The aim of this competition is to identify critical datasets used in scientific 
 
 
 ## Notebook Description
-#### * Dataset Scrapper
+* #### Dataset Scrapper
 | Filename           | Link to Kaggle Kernel                                                                      | Environment | Description                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
 | 100000-govt-datasets-api-json-to-df.ipynb      | https://www.kaggle.com/mlconsult/100000-govt-datasets-api-json-to-df/         | Kaggle CPU  | The external US Goverment's datasets scrapper by Ken Miller											|
 | web-scraping-for-bigger-govt-dataset-list.ipynb      | https://www.kaggle.com/chienhsianghung/coleridge-additional-gov-datasets-22000popular         | Kaggle CPU  | The external US Goverment's datasets scrapper by Chien-Hsiang Hung 		|
 
-#### * Dataset Pre-processing and Filter
+* #### Dataset Pre-processing and Filter
 | Filename           | Link to Kaggle Kernel                                                                      | Environment | Description                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
 | ci-create-train-df-with-ext-data.ipynb      | https://www.kaggle.com/mfalfafa/ci-create-train-df-with-ext-data         | Kaggle CPU  | Identify the mention of datasets within scientific publications using literal prediction (filtered scrapped datasets) 		|
 | ci-train-ext-dataset-v2.ipynb      | https://www.kaggle.com/mfalfafa/ci-train-ext-dataset-v2/         | Kaggle CPU  | Identify the mention of datasets within scientific publications using literal prediction (filtered scrapped datasets) 		|
 
-#### * NLP Model Generator
+* #### NLP Model Generator
 
 | Filename           | Link to Kaggle Kernel                                                                      | Environment | Description                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
@@ -46,14 +46,14 @@ The aim of this competition is to identify critical datasets used in scientific 
 | coleridge-xlm-roberta-base-epoch-1-training.ipynb      | https://www.kaggle.com/mfalfafa/coleridge-xlm-roberta-base-epoch-1-training/         | Kaggle GPU  | Create NLP model for Named Entity Recognition (NER) task using XLM-RoBERTa-base as a pretrained model                                                             |
 | sentence-level-analysis-with-transformer-v2.ipynb      | https://www.kaggle.com/mfalfafa/sentence-level-analysis-with-transformer-v2  | Kaggle GPU  | Create NLP model for sentence analysis task using multihead attention-based and MLP model                                                             |
 
-#### * Final Solution
+* #### Final Solution
 | Filename           | Link to Kaggle Kernel                                                                      | Environment | Description                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
 | coleridge-initiative-final-inference.ipynb      | https://www.kaggle.com/mfalfafa/coleridge-initiative-final-inference         | Kaggle GPU  | Final solution for prediction of mentioned datasets. This notebook used for submission                                                                              |
 
 
 ## Generated Datasets and Models
-#### * Generated Datasets
+* #### Generated Datasets
 
 Datasets are generated using scrapper notebooks. This dataset can be used to make quick submission using final-solution notebook.
 
@@ -64,7 +64,7 @@ Datasets are generated using scrapper notebooks. This dataset can be used to mak
 | web-scraping-for-bigger-govt-dataset-list.ipynb      | `Coleridge additional_gov_datasets_22000popular`          | https://www.kaggle.com/chienhsianghung/coleridge-additional-gov-datasets-22000popular                                  |
 | ci-train-ext-dataset-v2.ipynb      | `CI_ext_datasets_found_in_train_v2`          | https://www.kaggle.com/mfalfafa/ci-ext-datasets-found-in-train-v2 |
 
-#### * Generated Models
+* #### Generated Models
 | Training file         | Generated model                | Link to Kaggle datasets                                                     |
 | ------------------ | ----------------------------- | --------------------------------------------------------------------------- |
 | coleridge-xlm-roberta-base-epoch-1-training.ipynb      | `NER model`          | https://www.kaggle.com/mfalfafa/coleridge-xlm-roberta-base-epoch-1-training/data						|
