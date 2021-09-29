@@ -53,10 +53,10 @@ The aim of this competition is to identify critical datasets used in scientific 
 
 
 ## Generated Datasets and Models
+
+Datasets and models are generated using scrapper and training notebooks. This datasets can be used to make quick submission using final-solution notebook.
+
 * #### Generated Datasets
-
-Datasets are generated using scrapper notebooks. This dataset can be used to make quick submission using final-solution notebook.
-
 | Scrapper/filter file         | Generated dataset                | Link to Kaggle datasets                                                     |
 | ------------------ | ----------------------------- | --------------------------------------------------------------------------- |
 | 100000-govt-datasets-api-json-to-df.ipynb             | `100000 + govt_datasets_api_json_to_df`      | https://www.kaggle.com/mlconsult/100000-govt-datasets-api-json-to-df/data |
@@ -91,7 +91,7 @@ Dependency datasets are used for training the model and submitting the solution.
 
 ## Reproducibility Guide
 
-> This guide assume you have necessary files (full dataset provided by Coleridge Initiative and dependency datasets), move it to correct directory path and run it on Kaggle Notebook or another Jupyter Notebook environment. 
+This guide assume you have necessary files (full dataset provided by Coleridge Initiative and dependency datasets), move it to correct directory path and run it on Kaggle Notebook or another Jupyter Notebook environment. 
 
 1. Run `100000-govt-datasets-api-json-to-df.ipynb` and `web-scraping-for-bigger-govt-dataset-list.ipynb`
 2. Run `ci-create-train-df-with-ext-data.ipynb`
